@@ -35,13 +35,13 @@
 .container-fluid {
     display: inline-block;
     width: 100%;
-    padding: var(--container-padding) 10px;
+    padding: 0px 10px;
 }
 .container > .row,
 .container-fluid > .row {
     display: inline-block;
     width: 100%;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 .row > [class*='col-'] {
     float: left;

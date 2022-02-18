@@ -10,3 +10,58 @@
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
+section{
+    color: #424DF7;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.firstcontainer{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.touch{    
+text-transform: capitalize;
+font-size: 56px;
+font-weight: lighter;
+}
+
+
+input{ 
+    line-height: 80px;
+    color:  #030741;
+    font-size: 25px;
+    padding-left: 25px;
+    border-radius: 15px;
+    border-style: none;
+    
+}
+
+.inp{
+    background: rgb(200,206,254);
+    background: linear-gradient(90deg, rgba(200,206,254,1) 0%, rgba(199,206,255,1) 100%);
+}
+
+input::placeholder{
+    color:#1C36E5;
+    text-transform: capitalize;
+}
+
+.message{
+    height: 240px;
+    vertical-align:text-top;
+    background-color: #8a99fa;
+}
+
+.button{
+background-color: #233BF5;
+border-radius: 20px;
+border-style: none;
+}
+
+.submitbutton{
+width:100%;
+background-color: #233BF5;
+color: white;
+}

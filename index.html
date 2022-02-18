@@ -17,6 +17,43 @@
     <title>2022-02-18 test</title>
 </head>
 <body>
-    
+    <section>
+        <div class="container-fluid firstcontainer">
+            <div class ="row firstrow">
+                <div class="col-12 firstrow">
+                    <h1 class="touch">Get in touch</h1>
+                </div>
+            </div>
+        </div>    
+        <form class = "container-fluid formcontainer">
+           <div class="row">
+               <label for="first-name"></label>
+               <input class="inp col-sm-12 col-md-6 col-lg-6" id="first-name" type="text" placeholder="First Name" required>
+               <label for="last-name"></label>
+               <input class="inp col-sm-12 col-md-6 col-lg-6" id="last-name" type="text" placeholder="Last Name" required>
+            </div>
+            <div class="row">
+                <label for="Email"></label>
+                <input class="inp col-sm-12 col-md-6 col-lg-6" id="Email" type="email" placeholder="Email" required>
+                <label for="Phone"></label>
+                <input class="inp col-sm-12 col-md-6 col-lg-6" id="Phone" type="tel" placeholder="Phone" required>
+             </div>
+             <div class="row">
+                <label for="Adress"></label>
+                <input class="inp col-sm-12 col-md-12 col-lg-12" id="Adress" type="text" placeholder="Adress" required>
+             </div>
+             <div class="row">
+                <label for="message"></label>
+                <input class=" col-sm-12 col-md-12 col-lg-12 message" id="message" type="text" placeholder="Type your message here" required>
+             </div>
+             <div class="row">
+                
+                <button class="ml-5 col-2 button">
+                    <label for="submit"></label>
+                    <input class="submitbutton" id="submit" type="submit" value="Submit">
+                </button>
+             </div>                          
+        </form>
+    </section>    
 </body>
 </html>
